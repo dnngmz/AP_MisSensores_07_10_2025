@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
     private void cargarSensores() {
         List<Sensor> lista = gestorSensores.getSensorList(Sensor.TYPE_ALL);
         List<String> nombresSensores = new ArrayList<>();
